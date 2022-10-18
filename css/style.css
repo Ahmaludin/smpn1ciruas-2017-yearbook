@@ -13,12 +13,65 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background-color: gray;
+  background-color: #fff;
   min-height: 2000px;
+  font-family: 'Lato', sans-serif;
+  color: #252525;
+  letter-spacing: 0.5px;
 }
 
 .container {
-  width: 40%;
-  margin: 50px auto;
-  box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.25);
+  width: 1100px;
+  margin: auto;
 }
+
+/* HEADER AREA */
+
+header {
+  display: flex;
+  width: 1100px;
+  margin-top: 150px;
+}
+
+header .text {
+  margin-top: 50px;
+}
+
+header .text h2 {
+  font-size: 2rem;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+header .text p {
+  font-size: 1.25rem;
+  margin-bottom: 60px;
+}
+
+header .text a {
+  text-decoration: none;
+  background-color: #0000ff;
+  color: white;
+  font-weight: 500;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+header .text a:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header img {
+  width: 50%;
+  cursor: pointer;
+  transition: 300ms;
+  transform: scale(0.9);
+}
+
+header img:hover {
+  filter: drop-shadow(rgba(0, 0, 0, 0.24) 0px 3px 8px);
+}
+
+/* BANNER AREA */
