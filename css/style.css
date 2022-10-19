@@ -241,14 +241,6 @@ section.visiMisi .misi li {
 
 /* TOP SCHOOL AREA */
 
-/* section.topSchool h2 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #252525;
-  margin-bottom: 50px;
-} */
-
 section.topSchool .wrap {
   display: flex;
   gap: 35px;
@@ -268,6 +260,7 @@ section.topSchool .welcomeText {
   padding: 20px;
   border-left: 5px solid #252525;
   box-sizing: border-box;
+
   /* position: relative; */
 }
 
@@ -303,7 +296,7 @@ section.topSchool .kepsek {
 section.topSchool .wakepsekImg {
   display: flex;
   justify-content: space-between;
-  /* gap: 5px; */
+  gap: 5px;
 }
 
 section.topSchool .wakepsekImg img {
