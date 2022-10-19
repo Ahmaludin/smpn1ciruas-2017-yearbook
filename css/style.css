@@ -35,7 +35,7 @@ body {
 .container2 section {
   max-width: 1500px;
   margin: auto;
-  padding: 30px 0 40px;
+  padding: 25px 0;
 }
 
 /* NAVIGATION AREA */
@@ -180,15 +180,16 @@ section.visiMisi {
 
 section.visiMisi h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
-  color: red;
+  color: #252525;
 }
 
 section.visiMisi h4 {
   text-align: center;
   letter-spacing: 4px;
   font-style: italic;
+  font-size: 0.8rem;
 }
 
 section.visiMisi .wrap {
@@ -204,12 +205,12 @@ section.visiMisi .visi,
 
 section.visiMisi .visi h3,
 .misi h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 section.visiMisi .visi p {
-  text-indent: 50px;
+  /* text-indent: 50px; */
   text-align: justify;
   line-height: 20px;
 }
