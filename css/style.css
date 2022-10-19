@@ -19,6 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #252525;
   letter-spacing: 0.5px;
+  min-height: 10000px;
 }
 
 /* GLOBAL AREA */
@@ -241,6 +242,10 @@ section.visiMisi .misi li {
 
 /* TOP SCHOOL AREA */
 
+section.topSchool {
+  margin-bottom: 100px;
+}
+
 section.topSchool .wrap {
   display: flex;
   gap: 35px;
@@ -258,7 +263,7 @@ section.topSchool .welcomeText {
   text-align: justify;
   background-color: #f5f5f5;
   padding: 20px;
-  border-left: 5px solid #252525;
+  border-left: 5px solid #0000ff;
   box-sizing: border-box;
 
   /* position: relative; */
@@ -300,5 +305,25 @@ section.topSchool .wakepsekImg {
 }
 
 section.topSchool .wakepsekImg img {
+  width: 200px;
+}
+
+/* PRECEPTOR AREA */
+
+section.preceptor {
+  padding: 0 1rem;
+  max-width: 1500px;
+  margin: auto;
+}
+
+section.preceptor .wrap {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  /* justify-content: space-around; */
+}
+
+section.preceptor img {
   width: 200px;
 }
