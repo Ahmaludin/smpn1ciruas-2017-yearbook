@@ -261,7 +261,7 @@ section.topSchool .wrap2 {
 }
 
 section.topSchool .welcomeText {
-  height: 230px;
+  height: 175px;
   overflow: auto;
   text-align: justify;
   background-color: #f5f5f5;
@@ -297,15 +297,15 @@ section.topSchool .welcomeText hr {
 }
 
 section.topSchool .kepsek {
-  width: 400px;
+  width: 300px;
 }
 
 section.topSchool .wakepsekImg {
   display: flex;
-  justify-content: space-between;
-  /* gap: 5px; */
+  justify-content: start;
+  gap: 5px;
 }
 
 section.topSchool .wakepsekImg img {
-  width: 200px;
+  width: 150px;
 }
