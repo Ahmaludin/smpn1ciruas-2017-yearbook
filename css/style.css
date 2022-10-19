@@ -21,6 +21,8 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* GLOBAL AREA */
+
 .container1 {
   max-width: 1100px;
   margin: auto;
@@ -36,6 +38,14 @@ body {
   max-width: 1500px;
   margin: auto;
   padding: 25px 0;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #252525;
+  margin-bottom: 50px;
 }
 
 /* NAVIGATION AREA */
@@ -179,10 +189,7 @@ section.visiMisi {
 }
 
 section.visiMisi h2 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #252525;
+  margin-bottom: 0;
 }
 
 section.visiMisi h4 {
@@ -230,4 +237,75 @@ section.visiMisi .misi li {
   width: 1px;
   height: 200px;
   margin-top: 60px;
+}
+
+/* TOP SCHOOL AREA */
+
+/* section.topSchool h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #252525;
+  margin-bottom: 50px;
+} */
+
+section.topSchool .wrap {
+  display: flex;
+  gap: 35px;
+}
+
+section.topSchool .wrap2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section.topSchool .welcomeText {
+  height: 230px;
+  overflow: auto;
+  text-align: justify;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-left: 5px solid #252525;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+
+/* Untuk tombol back to top */
+/* section.topSchool .welcomeText .toTop {
+  font-size: 1.5rem;
+  background-color: #0000ff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+} */
+
+section.topSchool .welcomeText .sign {
+  margin-left: 300px;
+}
+
+section.topSchool .welcomeText hr {
+  margin: 50px auto;
+}
+
+section.topSchool .kepsek {
+  width: 400px;
+}
+
+section.topSchool .wakepsekImg {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */
+}
+
+section.topSchool .wakepsekImg img {
+  width: 200px;
 }
