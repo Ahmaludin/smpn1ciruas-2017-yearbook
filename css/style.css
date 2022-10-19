@@ -27,14 +27,13 @@ body {
 }
 
 .container2 {
-  /* background-color: #f5f5f5; */
-  background-color: #f0f8ff;
+  background-color: #f5f5f5;
 }
 
 .container2 section {
   width: 1500px;
   margin: auto;
-  padding: 60px 0 70px;
+  padding: 30px 0 40px;
 }
 
 /* HEADER AREA */
@@ -99,7 +98,7 @@ section.visiMisi h2 {
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
-  color: tomato;
+  color: red;
 }
 
 section.visiMisi h4 {
@@ -115,14 +114,14 @@ section.visiMisi .wrap {
 
 section.visiMisi .visi,
 .misi {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 50%;
 }
 
 section.visiMisi .visi h3,
 .misi h3 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 section.visiMisi .visi p {
@@ -139,4 +138,11 @@ section.visiMisi .misi li {
   text-align: justify;
   line-height: 20px;
   margin-bottom: 5px;
+}
+
+.line {
+  background-color: #252525;
+  width: 1px;
+  height: 200px;
+  margin-top: 60px;
 }
