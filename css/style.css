@@ -22,27 +22,100 @@ body {
 }
 
 .container1 {
-  width: 1100px;
+  max-width: 1100px;
   margin: auto;
+  padding: 0 1rem;
 }
 
 .container2 {
   background-color: #f5f5f5;
+  padding: 0 1rem;
 }
 
 .container2 section {
-  width: 1500px;
+  max-width: 1500px;
   margin: auto;
   padding: 30px 0 40px;
+}
+
+/* NAVIGATION AREA */
+
+.containerNav {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 25px 1rem;
+}
+
+nav {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 a {
+  text-decoration: none;
+  color: #252525;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav .navList a {
+  text-decoration: none;
+  color: #252525;
+  font-weight: bold;
+  transition: 300ms;
+}
+
+nav .navList a:hover {
+  color: #0000ff;
+}
+
+nav .join .register a {
+  text-decoration: none;
+  background-color: #0000ff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 3px;
+}
+
+nav .join .login a {
+  text-decoration: none;
+  border: 2px solid #0000ff;
+  color: #0000ff;
+  padding: 13px 25px;
+  border-radius: 3px;
+  transition: 100ms;
+  font-weight: bold;
+}
+
+nav .join .login a:hover {
+  background-color: #0000ff;
+  color: white;
+  font-weight: normal;
 }
 
 /* HEADER AREA */
 
 header {
   display: flex;
+  justify-content: space-between;
   width: 1100px;
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 header .text {
@@ -61,19 +134,30 @@ header .text p {
 }
 
 header .text a {
-  text-decoration: none;
+  /* before */
+  /* text-decoration: none;
   background-color: #0000ff;
   color: white;
   font-weight: 500;
   padding: 20px 25px;
   border-radius: 5px;
   font-size: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+
+  /* after */
+  text-decoration: none;
+  background-color: #0000ff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 3px;
+  transition: 300ms;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-header .text a:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+/* before */
+/* header .text a:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
 
 header img {
   width: 50%;
@@ -109,7 +193,7 @@ section.visiMisi h4 {
 
 section.visiMisi .wrap {
   display: flex;
-  gap: 300px;
+  gap: 100px;
 }
 
 section.visiMisi .visi,
