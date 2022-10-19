@@ -15,14 +15,26 @@ font-family: 'Roboto', sans-serif;
 body {
   background-color: #fff;
   min-height: 2000px;
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   color: #252525;
   letter-spacing: 0.5px;
 }
 
-.container {
+.container1 {
   width: 1100px;
   margin: auto;
+}
+
+.container2 {
+  /* background-color: #f5f5f5; */
+  background-color: #f0f8ff;
+}
+
+.container2 section {
+  width: 1500px;
+  margin: auto;
+  padding: 60px 0 70px;
 }
 
 /* HEADER AREA */
@@ -31,6 +43,7 @@ header {
   display: flex;
   width: 1100px;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 header .text {
@@ -39,7 +52,7 @@ header .text {
 
 header .text h2 {
   font-size: 2rem;
-  width: 90%;
+  /* width: 90%; */
   margin-bottom: 15px;
 }
 
@@ -75,3 +88,55 @@ header img:hover {
 }
 
 /* BANNER AREA */
+
+/* VISI & MISI AREA */
+
+section.visiMisi {
+  margin-bottom: 100px;
+}
+
+section.visiMisi h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: tomato;
+}
+
+section.visiMisi h4 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-style: italic;
+}
+
+section.visiMisi .wrap {
+  display: flex;
+  gap: 300px;
+}
+
+section.visiMisi .visi,
+.misi {
+  margin-top: 50px;
+  width: 50%;
+}
+
+section.visiMisi .visi h3,
+.misi h3 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+section.visiMisi .visi p {
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+section.visiMisi .misi ol {
+  margin-left: 18px;
+}
+
+section.visiMisi .misi li {
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
