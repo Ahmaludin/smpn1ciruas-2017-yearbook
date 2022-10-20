@@ -27,8 +27,13 @@ btnHeader.addEventListener('click', function () {
 
 // PRECEPTOR AREA
 
-const preceptor = document.querySelectorAll('sectuin.preceptor img');
+const preceptorWrap = document.querySelector('.preceptor');
+const preceptor = document.querySelectorAll('.preceptor img');
 
-for (let i = 0; i < 0; i++) {
-  setTimeout(function () {}, 1000);
+for (let i = 0; i < preceptor.length; i++) {
+  preceptor[i].addEventListener('click', function () {
+    for (let a = 0; a < preceptor.length; a++) {
+      preceptor[a].classList.toggle('animationButton');
+    }
+  });
 }

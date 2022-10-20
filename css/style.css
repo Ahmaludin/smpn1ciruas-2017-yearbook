@@ -338,13 +338,6 @@ section.preceptor {
   box-sizing: border-box;
 }
 
-section.preceptor img {
-  width: 200px;
-  display: inline-block;
-  animation: preceptor 600s linear;
-  /* transform: translateX(-2804px); */
-}
-
 @keyframes preceptor {
   from {
     transform: translateX(0);
@@ -354,7 +347,33 @@ section.preceptor img {
   }
 }
 
-section.preceptor .wrap {
+section.preceptor .wrap1 img {
+  animation: preceptor 60s linear infinite alternate;
+}
+
+section.preceptor .wrap2 img {
+  animation: preceptor 60s linear infinite alternate-reverse;
+}
+
+section.preceptor img {
+  width: 200px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+section.preceptor .wrap1 .animationButton {
+  animation-play-state: paused;
+}
+section.preceptor .wrap2 .animationButton {
+  animation-play-state: paused;
+}
+
+section.preceptor .wrap1 {
+  margin-bottom: 1rem;
+}
+
+section.preceptor .wrap1,
+.wrap2 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-auto-flow: column;
