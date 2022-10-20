@@ -24,3 +24,11 @@ btnHeader.addEventListener('click', function () {
     btnHeader.style.color = '#fff';
   }, 5000);
 });
+
+// PRECEPTOR AREA
+
+const preceptor = document.querySelectorAll('sectuin.preceptor img');
+
+for (let i = 0; i < 0; i++) {
+  setTimeout(function () {}, 1000);
+}
