@@ -27,8 +27,7 @@ btnHeader.addEventListener('click', function () {
 
 // PRECEPTOR AREA
 
-const preceptorWrap = document.querySelector('.preceptor');
-const preceptor = document.querySelectorAll('.preceptor img');
+const preceptor = document.querySelectorAll('.preceptor .preceptorImg');
 
 for (let i = 0; i < preceptor.length; i++) {
   preceptor[i].addEventListener('click', function () {

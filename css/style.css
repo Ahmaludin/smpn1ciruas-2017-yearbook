@@ -311,23 +311,6 @@ section.topSchool .wakepsekImg img {
 
 /* PRECEPTOR AREA */
 
-/* section.preceptor {
-  padding: 0 1rem;
-  max-width: 1500px;
-  margin: auto;
-}
-
-section.preceptor .wrap {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-section.preceptor img {
-  width: 200px;
-} */
-
 .containerPreceptor {
   padding: 0 1rem;
 }
@@ -336,36 +319,6 @@ section.preceptor {
   max-width: 1500px;
   margin: auto;
   box-sizing: border-box;
-}
-
-@keyframes preceptor {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-2804px);
-  }
-}
-
-section.preceptor .wrap1 img {
-  animation: preceptor 60s linear infinite alternate;
-}
-
-section.preceptor .wrap2 img {
-  animation: preceptor 60s linear infinite alternate-reverse;
-}
-
-section.preceptor img {
-  width: 200px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-section.preceptor .wrap1 .animationButton {
-  animation-play-state: paused;
-}
-section.preceptor .wrap2 .animationButton {
-  animation-play-state: paused;
 }
 
 section.preceptor .wrap1 {
@@ -379,4 +332,66 @@ section.preceptor .wrap1,
   grid-auto-flow: column;
   gap: 1rem;
   overflow: hidden;
+}
+
+@keyframes preceptor {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-2804px);
+  }
+}
+
+section.preceptor .wrap1 .preceptorImg {
+  animation: preceptor 60s linear infinite alternate;
+}
+
+section.preceptor .wrap2 .preceptorImg {
+  animation: preceptor 60s linear infinite alternate-reverse;
+}
+
+section.preceptor .wrap1 .animationButton {
+  animation-play-state: paused;
+}
+section.preceptor .wrap2 .animationButton {
+  animation-play-state: paused;
+}
+
+section.preceptor img {
+  width: 200px;
+  cursor: pointer;
+}
+
+section.preceptor .preceptorImg {
+  position: relative;
+}
+
+section.preceptor .preceptorImg:hover .fullsize,
+section.preceptor .preceptorImg:hover .preceptorInfo {
+  display: inherit;
+}
+
+section.preceptor .preceptorImg .preceptorInfo,
+.fullsize {
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+section.preceptor .preceptorImg .preceptorInfo {
+  font-size: 0.8rem;
+  text-align: center;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
+}
+
+section.preceptor .preceptorImg .fullsize {
+  font-size: 1.5rem;
+  top: 10px;
+  right: 10px;
 }
