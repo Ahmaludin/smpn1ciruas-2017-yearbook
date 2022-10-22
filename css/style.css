@@ -10,7 +10,6 @@ font-family: 'Roboto', sans-serif;
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -313,6 +312,7 @@ section.topSchool .wakepsekImg img {
 
 .containerPreceptor {
   padding: 0 1rem;
+  margin-bottom: 150px;
 }
 
 section.preceptor {
@@ -394,4 +394,58 @@ section.preceptor .preceptorImg .fullsize {
   font-size: 1.5rem;
   top: 10px;
   right: 10px;
+}
+
+/* MEMBER AREA */
+
+section.member img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+section.member {
+  display: grid;
+  grid-template-areas:
+    'staff osis osis'
+    'security osis osis';
+  gap: 1rem;
+}
+
+section.member .staff {
+  grid-area: staff;
+}
+
+section.member .security {
+  grid-area: security;
+}
+
+section.member .osis {
+  grid-area: osis;
+}
+
+section.member .staff,
+.security,
+.osis {
+  position: relative;
+  transition: 300ms;
+}
+
+section.member .info {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.member .osis .info {
+  font-size: 2rem;
+}
+
+section.member .staff:hover,
+section.member .security:hover,
+section.member .osis:hover {
+  transform: scale(1.01);
 }
