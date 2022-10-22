@@ -411,6 +411,7 @@ section.member {
     'staff osis osis'
     'security osis osis';
   gap: 1rem;
+  margin-bottom: 150px;
 }
 
 section.member .staff {
@@ -448,4 +449,47 @@ section.member .staff:hover,
 section.member .security:hover,
 section.member .osis:hover {
   transform: scale(1.01);
+}
+
+/* EXTRACURICULAR AREA */
+
+section.extracuricular img {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+section.extracuricular .wrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+section.extracuricular .extracuricularImg {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+section.extracuricular .extracuricularImg:hover img {
+  transform: scale(1.1);
+}
+
+section.extracuricular .extracuricularImg:hover .info {
+  opacity: 1;
+}
+
+section.extracuricular .extracuricularImg .info {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100% 0;
+  opacity: 0;
+  transition: 300ms;
 }
