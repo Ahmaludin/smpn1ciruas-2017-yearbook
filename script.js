@@ -36,3 +36,6 @@ for (let i = 0; i < preceptor.length; i++) {
     }
   });
 }
+
+// STUDENT AREA
+// buat alt untuk masing2 gambar siswa
